@@ -1,4 +1,4 @@
-﻿This set of PHP classes encapsulates the code required by a Learning Tools Interoperability<sup>®</sup> (LTI<sup>®</sup>) compliant tool provider to communicate with an LTI tool consumer.
+This set of PHP classes encapsulates the code required by a Learning Tools Interoperability<sup>®</sup> (LTI<sup>®</sup>) compliant tool provider to communicate with an LTI tool consumer.
 It includes support for LTI 1.1 and the unofficial extensions to LTI 1.0, as well as the registration process and services of LTI 2.0.
 These classes are an extension of the LTI Tool Provider class library created by the ceLTIc project (http://www.spvsoftwareproducts.com/php/lti_tool_provider/).
 
