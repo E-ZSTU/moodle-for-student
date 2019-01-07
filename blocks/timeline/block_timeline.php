@@ -50,7 +50,11 @@ class block_timeline extends block_base {
             return $this->content;
         }
 
-        $renderable = new \block_timeline\output\main();
+        $sort = get_user_preferences('block_timeline_user_sort_preference');
+        $filter = get_user_preferences('block_timeline_user_filter_preference');
+        $limit = get_user_preferences('block_timeline_user_limit_preference');
+
+        $renderable = new \block_timeline\output\main($sort, $filter, $limit);
         $renderer = $this->page->get_renderer('block_timeline');
 
         $this->content = (object) [
