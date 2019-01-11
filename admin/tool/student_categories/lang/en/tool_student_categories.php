@@ -28,3 +28,5 @@ $string['import_checkbox'] = 'Import course categories from rozklad.ztu.edu.ua/'
 $string['import'] = 'Import';
 $string['import_checkbox_description'] = 'Initialize import after `Save changes` button is pressed';
 $string['import_checkbox_backup_description'] = 'Backup DB tables before import';
+$string['import_success'] = 'Import have been finished successfully';
+$string['import_failed'] = 'Import have been failed. Please check logs';
