@@ -115,7 +115,7 @@ function enrol_get_plugins($enabled) {
         $plugins = core_component::get_plugin_list('enrol');
         ksort($plugins);
     }
-
+    $plugins = ['manual' => '/home/novikor/projects/moodle/enrol/manual'];
     foreach ($plugins as $plugin=>$location) {
         $class = "enrol_{$plugin}_plugin";
         if (!class_exists($class)) {
